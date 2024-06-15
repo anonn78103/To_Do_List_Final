@@ -1,0 +1,101 @@
+body {
+    font-family: "Baloo Bhai 2",
+        sans-serif;
+    background: url('https://wallpapercave.com/wp/wp9361555.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    
+    background-color: rgba(255, 255, 255, 0.43);
+    padding: 40px;
+    /* Increased padding for a bigger look */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+    width: 600px;
+    /* Increased width */
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.header {
+    border-radius: 6px;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    font-family: "Baloo Bhai 2",
+            sans-serif;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    color-scheme: light;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color:black;
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+li.completed {
+    background-color: #ffffff7d;
+    color: black;
+}
+
+li button {
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background: #c82333;
+}
+
+.task-section {
+    margin-bottom: 20px;
+    color:#130101c7;
+}
